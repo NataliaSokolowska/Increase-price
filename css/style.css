@@ -1,0 +1,103 @@
+body {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 10px;
+}
+
+.text,
+.forms {
+    height: 100vh;
+}
+
+.wrapper {
+    max-width: 1200px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.colour {
+    background-color: #980082;
+    color: #fff;
+}
+
+.scallop-down {
+    height: 25vh;
+    width: 100%;
+    background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#980082), color-stop(0.49, #980082), color-stop(0.51, #df009d), to(#df009d));
+    -webkit-background-size: 49px 100%;
+}
+
+.scallop-up {
+    height: 25vh;
+    width: 100%;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#980082), color-stop(0.49, #980082), color-stop(0.51, #4f0054), to(#4f0054));
+    -webkit-background-size: 49px 100%;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 20px;
+}
+
+h2 span,
+h3 span {
+    color: #fff5c9;
+    font-size: 1.8rem;
+}
+
+.forms .wrapper {
+    height: 75vh;
+}
+
+input {
+    border: 2px solid #4f0054;
+    padding: 20px;
+    width: 280px;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.price {
+    margin-top: 50px;
+}
+
+.new-price span {
+    font-size: 2.2rem;
+    color: #980082;
+}
+
+.forms h2 {
+    margin: 30px;
+}
+
+@media screen and (orientation:landscape) {
+
+    h1,
+    h2,
+    h3 {
+        padding: 10px;
+    }
+
+    .forms h2 {
+        margin: 10px;
+    }
+
+    .price {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    h1,
+    h2,
+    h3 {
+        padding: 30px;
+    }
+}
